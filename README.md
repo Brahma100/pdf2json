@@ -147,6 +147,8 @@ Golden fixtures:
 4. GitHub Action `publish-pypi.yml` uploads package to PyPI.
 5. Verify install: `py -3.10 -m pip install -U invoice-ocr`
 
+Full checklist: `docs/PUBLISHING.md`
+
 ## Deskew Preprocess
 
 - Pre-OCR deskew is enabled by default.

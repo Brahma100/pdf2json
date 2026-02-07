@@ -8,7 +8,8 @@ version = "0.1.0"
 description = "Document OCR to structured JSON with validation, inference, and risk scoring."
 readme = "README.md"
 requires-python = ">=3.10,<3.11"
-license = { file = "LICENSE" }
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [{ name = "Brahma100" }]
 maintainers = [{ name = "Brahma100" }]
 keywords = ["ocr", "invoice", "pdf", "document-ai", "paddleocr", "json"]
@@ -18,7 +19,6 @@ classifiers = [
   "Operating System :: Microsoft :: Windows",
   "Environment :: Console",
   "Intended Audience :: Developers",
-  "License :: OSI Approved :: MIT License",
   "Topic :: Office/Business :: Financial :: Accounting",
   "Topic :: Scientific/Engineering :: Image Recognition",
 ]
