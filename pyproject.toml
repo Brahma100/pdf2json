@@ -5,16 +5,22 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "invoice-ocr"
 version = "0.1.0"
-description = "Local CPU-only invoice OCR package for Windows"
+description = "Document OCR to structured JSON with validation, inference, and risk scoring."
 readme = "README.md"
 requires-python = ">=3.10,<3.11"
-authors = [{ name = "Your Name" }]
+license = { file = "LICENSE" }
+authors = [{ name = "Brahma100" }]
+maintainers = [{ name = "Brahma100" }]
+keywords = ["ocr", "invoice", "pdf", "document-ai", "paddleocr", "json"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
   "Operating System :: Microsoft :: Windows",
   "Environment :: Console",
   "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial :: Accounting",
+  "Topic :: Scientific/Engineering :: Image Recognition",
 ]
 dependencies = [
   "numpy==1.26.4",
@@ -24,6 +30,11 @@ dependencies = [
   "paddlepaddle==2.6.2; platform_system == 'Windows' and python_version < '3.11'",
   "paddleocr==2.7.0.3; platform_system == 'Windows'",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Brahma100/pdf2json"
+Repository = "https://github.com/Brahma100/pdf2json"
+Issues = "https://github.com/Brahma100/pdf2json/issues"
 
 [project.optional-dependencies]
 dev = [

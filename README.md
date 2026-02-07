@@ -1,6 +1,7 @@
 ﻿# invoice-ocr
 
-CPU-only invoice OCR package for Windows (`Python 3.10.11`).
+Document OCR to structured JSON with validation, inference, and risk scoring.
+Optimized for Windows + Python 3.10.
 
 ## Clean Project Structure
 
@@ -52,7 +53,19 @@ invoice-ocrV2/
 
 These pins avoid NumPy 2.x migration risk and keep OpenCV/OCR compatibility conservative.
 
-## Install (Windows PowerShell)
+## Install from PyPI (consumer)
+
+```powershell
+py -3.10 -m pip install invoice-ocr
+```
+
+Then run:
+
+```powershell
+invoice-ocr sample_invoice.pdf -o out.json
+```
+
+## Install from source (development)
 
 ```powershell
 py -3.10 -m venv .venv
@@ -116,6 +129,23 @@ Golden fixtures:
 - `tests/golden/sample_invoice_golden.json`
 - `tests/golden/invoice_golden.json`
 - `tests/golden/invoice2_golden.json`
+
+## CI and release automation
+
+- CI workflow: `.github/workflows/ci.yml`
+  - Windows test job with Poppler + golden tests
+  - Build + `twine check` job
+- Publish workflow: `.github/workflows/publish-pypi.yml`
+  - Trigger: GitHub Release published (or manual dispatch)
+  - Build artifacts and publish to PyPI
+
+## Maintainer release steps (PyPI)
+
+1. Bump version in `pyproject.toml`.
+2. Commit + tag release, for example `v0.1.1`.
+3. Push tag and publish a GitHub Release.
+4. GitHub Action `publish-pypi.yml` uploads package to PyPI.
+5. Verify install: `py -3.10 -m pip install -U invoice-ocr`
 
 ## Deskew Preprocess
 
