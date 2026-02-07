@@ -1,0 +1,15 @@
+{
+  "document.document_type": "product_invoice",
+  "normalized.document_id": "INV-3337",
+  "normalized.issue_date": "January 25, 2016",
+  "normalized.due_date": "January 31, 2016",
+  "normalized.currency": "USD",
+  "normalized.order_number": "12345",
+  "normalized.payments.status": null,
+  "normalized.payments.bank.name": "ANZ Bank",
+  "normalized.payments.bank.account_number": "1234 1234",
+  "normalized.payments.bank.bsb": "4321 432",
+  "meta.schema_version": "1.1.0",
+  "meta.preprocess.version": "1.0.0",
+  "meta.preprocess.deskew.enabled": true
+}

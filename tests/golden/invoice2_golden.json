@@ -1,0 +1,15 @@
+{
+  "document.document_type": "product_invoice",
+  "normalized.document_id": "33272",
+  "normalized.issue_date": "October 17, 2012",
+  "normalized.currency": "USD",
+  "normalized.totals.subtotal": "827.91",
+  "normalized.totals.shipping": "36.12",
+  "normalized.totals.total": "864.03",
+  "normalized.payments.status": null,
+  "unknown_fields.order_id.value": "CA-2012-AS10225140-41199",
+  "variant_data.variant": "generic",
+  "meta.schema_version": "1.1.0",
+  "meta.preprocess.version": "1.0.0",
+  "meta.preprocess.deskew.enabled": true
+}

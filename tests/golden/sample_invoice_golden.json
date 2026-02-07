@@ -1,0 +1,16 @@
+{
+  "document.document_type": "utility_bill",
+  "normalized.account_no": "8961355121",
+  "normalized.issue_date": "January 1, 2026",
+  "normalized.due_date": "February 7, 2026",
+  "normalized.line_item_source_priority": ["amount", "usage", "rate"],
+  "normalized.line_items.0.Cost (per kWh)": "9999",
+  "normalized.line_items.0._cost_confidence": "inferred",
+  "normalized.payments.status": null,
+  "validation.inferred_fields.0.field": "line_items.cost_per_kwh",
+  "validation.inferred_fields.0.inferred_value": "9999",
+  "validation.inferred_fields.0.source_priority": ["amount", "usage", "rate"],
+  "meta.schema_version": "1.1.0",
+  "meta.preprocess.version": "1.0.0",
+  "meta.preprocess.deskew.enabled": true
+}

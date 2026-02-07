@@ -1,0 +1,1262 @@
+{
+  "document": {
+    "document_type": "utility_bill",
+    "document_type_confidence": 0.95,
+    "domain": "finance",
+    "domain_confidence": 0.86,
+    "pages": 2,
+    "languages": [
+      {
+        "code": "en",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "extracted_content": {
+    "structure": {
+      "headers": [
+        {
+          "page": 1,
+          "text": "ACME Company"
+        },
+        {
+          "page": 1,
+          "text": "123 Any Road, Suite 456"
+        },
+        {
+          "page": 1,
+          "text": "Metropolis, NY 10001"
+        },
+        {
+          "page": 1,
+          "text": "ABCPOWERS"
+        },
+        {
+          "page": 1,
+          "text": "Phone: (123) 123-4567 I Email: billing@example.com"
+        },
+        {
+          "page": 1,
+          "text": "Website: www.example.com"
+        },
+        {
+          "page": 2,
+          "text": "ACME Company"
+        },
+        {
+          "page": 2,
+          "text": "123 Any Road, Suite 456"
+        },
+        {
+          "page": 2,
+          "text": "Metropolis, NY 10001"
+        },
+        {
+          "page": 2,
+          "text": "ABCPOWERS"
+        },
+        {
+          "page": 2,
+          "text": "Phone: (123) 123-4567 I Email: billing@example.com"
+        },
+        {
+          "page": 2,
+          "text": "Website: www.example.com"
+        },
+        {
+          "page": 2,
+          "text": "REMINDERS:"
+        }
+      ],
+      "footers": [
+        {
+          "page": 1,
+          "text": "For any questions, please contact our billing department at billing@example.com or (123) 123-4567"
+        },
+        {
+          "page": 1,
+          "text": "ACME Company I www.example.com"
+        },
+        {
+          "page": 1,
+          "text": "Now create your own Jotform"
+        },
+        {
+          "page": 1,
+          "text": "Jotform"
+        },
+        {
+          "page": 1,
+          "text": "Create your own PDF Document"
+        },
+        {
+          "page": 1,
+          "text": "PDF document - It's Free"
+        },
+        {
+          "page": 2,
+          "text": "For any questions, please contact our billing department at billing@example.com or (123) 123-4567."
+        },
+        {
+          "page": 2,
+          "text": "ACME Company I www.example.com"
+        },
+        {
+          "page": 2,
+          "text": "Now create your own Jotform"
+        },
+        {
+          "page": 2,
+          "text": "Jotform"
+        },
+        {
+          "page": 2,
+          "text": "Create your own PDF Document"
+        },
+        {
+          "page": 2,
+          "text": "PDF document - It's Free"
+        }
+      ],
+      "tables": [
+        {
+          "schema": "utility_bill",
+          "columns": [
+            "Date",
+            "Usage (kWh)",
+            "Cost (per kWh)",
+            "Amount ($)"
+          ]
+        }
+      ],
+      "sections": {
+        "meter_information": true,
+        "bill_summary": true,
+        "reminders": true
+      },
+      "line_items": [
+        {
+          "Date": "1/2/2025",
+          "Usage (kWh)": "8888",
+          "Cost (per kWh)": "9999",
+          "Amount ($)": "88871112",
+          "_amount_decimal": "88871112",
+          "_ocr_cost_per_kwh": "6666",
+          "_cost_per_kwh_inferred": "9999",
+          "_cost_confidence": "inferred",
+          "_source_priority": [
+            "amount",
+            "usage",
+            "rate"
+          ]
+        }
+      ],
+      "summaries": {
+        "previous_charges": "1.00",
+        "current_charges": "3000.00",
+        "tax": "300.00",
+        "total": "3301"
+      },
+      "metadata_blocks": [
+        {
+          "label": "account_no",
+          "value": "8961355121"
+        },
+        {
+          "label": "statement_date",
+          "value": "January 1, 2026"
+        },
+        {
+          "label": "account_name",
+          "value": "Raj Jaiswal"
+        },
+        {
+          "label": "period_from",
+          "value": "February 1, 2026"
+        },
+        {
+          "label": "period_until",
+          "value": "February 2, 2026"
+        },
+        {
+          "label": "address",
+          "value": "Mask Road"
+        },
+        {
+          "label": "due_date",
+          "value": "February 7, 2026"
+        }
+      ],
+      "repeated_blocks": [
+        {
+          "text": "ACME Company",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "123 Any Road, Suite 456",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Metropolis, NY 10001",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ABCPOWERS",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Phone: (123) 123-4567 I Email: billing@example.com",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Website: www.example.com",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ACME Company I www.example.com",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Now create your own Jotform",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Create your own PDF Document",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "PDF document - It's Free",
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "fields": [
+      {
+        "key": "fields.account_no",
+        "value": "8961355121",
+        "inferred_type": "number",
+        "source_context": "fields",
+        "confidence": 1.0
+      },
+      {
+        "key": "fields.statement_date",
+        "value": "January 1, 2026",
+        "inferred_type": "date",
+        "source_context": "fields",
+        "confidence": 0.992
+      },
+      {
+        "key": "fields.account_name",
+        "value": "Raj Jaiswal",
+        "inferred_type": "identifier",
+        "source_context": "fields",
+        "confidence": 1.0
+      },
+      {
+        "key": "fields.period_from",
+        "value": "February 1, 2026",
+        "inferred_type": "date",
+        "source_context": "fields",
+        "confidence": 0.998
+      },
+      {
+        "key": "fields.period_until",
+        "value": "February 2, 2026",
+        "inferred_type": "date",
+        "source_context": "fields",
+        "confidence": 0.999
+      },
+      {
+        "key": "fields.address",
+        "value": "Mask Road",
+        "inferred_type": "address",
+        "source_context": "fields",
+        "confidence": 1.0
+      },
+      {
+        "key": "fields.due_date",
+        "value": "February 7, 2026",
+        "inferred_type": "date",
+        "source_context": "fields",
+        "confidence": 0.988
+      },
+      {
+        "key": "summary.previous_charges",
+        "value": "1.00",
+        "inferred_type": "number",
+        "source_context": "summary",
+        "confidence": 1.0
+      },
+      {
+        "key": "summary.current_charges",
+        "value": "3000.00",
+        "inferred_type": "number",
+        "source_context": "summary",
+        "confidence": 0.999
+      },
+      {
+        "key": "summary.tax",
+        "value": "300.00",
+        "inferred_type": "number",
+        "source_context": "summary",
+        "confidence": 0.999
+      },
+      {
+        "key": "summary.total",
+        "value": "3301",
+        "inferred_type": "number",
+        "source_context": "summary",
+        "confidence": 1.0
+      },
+      {
+        "key": "vendor.name",
+        "value": "ACME Company",
+        "inferred_type": "text",
+        "source_context": "vendor",
+        "confidence": 0.998
+      },
+      {
+        "key": "vendor.address",
+        "value": "123 Any Road, Suite 456, Metropolis, NY 10001",
+        "inferred_type": "address",
+        "source_context": "vendor",
+        "confidence": 1.0
+      },
+      {
+        "key": "vendor.phone",
+        "value": "(123) 123-4567",
+        "inferred_type": "phone",
+        "source_context": "vendor",
+        "confidence": 1.0
+      },
+      {
+        "key": "vendor.email",
+        "value": "billing@example.com",
+        "inferred_type": "email",
+        "source_context": "vendor",
+        "confidence": 1.0
+      },
+      {
+        "key": "vendor.website",
+        "value": "www.example.com",
+        "inferred_type": "text",
+        "source_context": "vendor",
+        "confidence": 1.0
+      },
+      {
+        "key": "customer_address_full.street",
+        "value": "Mask Road",
+        "inferred_type": "address",
+        "source_context": "customer_address_full",
+        "confidence": 1.0
+      },
+      {
+        "key": "customer_address_full.city",
+        "value": "Fayette County",
+        "inferred_type": "address",
+        "source_context": "customer_address_full",
+        "confidence": 0.999
+      },
+      {
+        "key": "customer_address_full.state",
+        "value": "Goa",
+        "inferred_type": "address",
+        "source_context": "customer_address_full",
+        "confidence": 0.999
+      },
+      {
+        "key": "customer_address_full.postal_code",
+        "value": "30205",
+        "inferred_type": "number",
+        "source_context": "customer_address_full",
+        "confidence": 0.999
+      },
+      {
+        "key": "customer_address_full.full",
+        "value": "Mask Road, Fayette County, Goa, 30205",
+        "inferred_type": "address",
+        "source_context": "customer_address_full",
+        "confidence": 1.0
+      },
+      {
+        "key": "reminders.0",
+        "value": "Present your Statement of Account when paying your utility bill..",
+        "inferred_type": "text",
+        "source_context": "reminders",
+        "confidence": 0.998
+      },
+      {
+        "key": "reminders.1",
+        "value": "Without this document, you will be required to provide the account number, account name, and amount to be paid..",
+        "inferred_type": "text",
+        "source_context": "reminders",
+        "confidence": 0.982
+      },
+      {
+        "key": "reminders.2",
+        "value": "Please check your online accounts after payment in order to make. sure that the payment is pushed through..",
+        "inferred_type": "text",
+        "source_context": "reminders",
+        "confidence": 0.995
+      },
+      {
+        "key": "reminders.3",
+        "value": "If you have any questions, please contact us at (123) 123-4567 or email us at info@noemail.com.",
+        "inferred_type": "email",
+        "source_context": "reminders",
+        "confidence": 0.999
+      },
+      {
+        "key": "notes.0",
+        "value": "For any questions, please contact our billing department at billing@example.com or (123) 123-4567.",
+        "inferred_type": "email",
+        "source_context": "notes",
+        "confidence": 1.0
+      }
+    ],
+    "logical_blocks": [
+      {
+        "page": 1,
+        "text": "ACME Company",
+        "confidence": 0.997
+      },
+      {
+        "page": 1,
+        "text": "123 Any Road, Suite 456",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Metropolis, NY 10001",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "ABCPOWERS",
+        "confidence": 0.996
+      },
+      {
+        "page": 1,
+        "text": "Phone: (123) 123-4567 I Email: billing@example.com",
+        "confidence": 0.981
+      },
+      {
+        "page": 1,
+        "text": "Website: www.example.com",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "UTILITY BILL",
+        "confidence": 0.87
+      },
+      {
+        "page": 1,
+        "text": "Account No.",
+        "confidence": 0.979
+      },
+      {
+        "page": 1,
+        "text": "Statement Date",
+        "confidence": 0.99
+      },
+      {
+        "page": 1,
+        "text": "8961355121",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "January 1, 2026",
+        "confidence": 0.992
+      },
+      {
+        "page": 1,
+        "text": "Account Name",
+        "confidence": 0.974
+      },
+      {
+        "page": 1,
+        "text": "Period Statement from",
+        "confidence": 0.994
+      },
+      {
+        "page": 1,
+        "text": "Raj Jaiswal",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "February 1, 2026",
+        "confidence": 0.998
+      },
+      {
+        "page": 1,
+        "text": "Address",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "Period Statement until",
+        "confidence": 0.987
+      },
+      {
+        "page": 1,
+        "text": "Mask Road",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "February 2, 2026",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Fayette County, Goa, 30205",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Meter Information",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Date",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Usage (kWh)",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Cost (per kWh)",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Amount ($)",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "1/2/2025",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "8888",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "6666",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "88871112",
+        "confidence": 0.986
+      },
+      {
+        "page": 1,
+        "text": "Bill Summary",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Previous Charges ($)",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "$1.00",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "Current Charges ($)",
+        "confidence": 0.976
+      },
+      {
+        "page": 1,
+        "text": "$ 3,000.00",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Tax ($)",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "$ 300.00",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "$3301",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "Total Amount ($)",
+        "confidence": 0.972
+      },
+      {
+        "page": 1,
+        "text": "Due Date",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "February 7, 2026",
+        "confidence": 0.988
+      },
+      {
+        "page": 1,
+        "text": "For any questions, please contact our billing department at billing@example.com or (123) 123-4567",
+        "confidence": 1.0
+      },
+      {
+        "page": 1,
+        "text": "ACME Company I www.example.com",
+        "confidence": 0.987
+      },
+      {
+        "page": 1,
+        "text": "Now create your own Jotform",
+        "confidence": 0.999
+      },
+      {
+        "page": 1,
+        "text": "Jotform",
+        "confidence": 0.99
+      },
+      {
+        "page": 1,
+        "text": "Create your own PDF Document",
+        "confidence": 0.997
+      },
+      {
+        "page": 1,
+        "text": "PDF document - It's Free",
+        "confidence": 0.978
+      },
+      {
+        "page": 2,
+        "text": "ACME Company",
+        "confidence": 0.998
+      },
+      {
+        "page": 2,
+        "text": "123 Any Road, Suite 456",
+        "confidence": 1.0
+      },
+      {
+        "page": 2,
+        "text": "Metropolis, NY 10001",
+        "confidence": 1.0
+      },
+      {
+        "page": 2,
+        "text": "ABCPOWERS",
+        "confidence": 0.995
+      },
+      {
+        "page": 2,
+        "text": "Phone: (123) 123-4567 I Email: billing@example.com",
+        "confidence": 0.981
+      },
+      {
+        "page": 2,
+        "text": "Website: www.example.com",
+        "confidence": 0.979
+      },
+      {
+        "page": 2,
+        "text": "REMINDERS:",
+        "confidence": 0.986
+      },
+      {
+        "page": 2,
+        "text": "1. Present your Statement of Account when paying your utility bill..",
+        "confidence": 0.998
+      },
+      {
+        "page": 2,
+        "text": "2. Without this document, you will be required to provide the",
+        "confidence": 0.999
+      },
+      {
+        "page": 2,
+        "text": "account number, account name, and amount to be paid..",
+        "confidence": 0.982
+      },
+      {
+        "page": 2,
+        "text": "3. Please check your online accounts after payment in order to make.",
+        "confidence": 0.99
+      },
+      {
+        "page": 2,
+        "text": "sure that the payment is pushed through..",
+        "confidence": 0.995
+      },
+      {
+        "page": 2,
+        "text": "4. If you have any questions, please contact us at (123) 123-4567 or",
+        "confidence": 0.995
+      },
+      {
+        "page": 2,
+        "text": "email us at info@noemail.com.",
+        "confidence": 0.999
+      },
+      {
+        "page": 2,
+        "text": "For any questions, please contact our billing department at billing@example.com or (123) 123-4567.",
+        "confidence": 0.988
+      },
+      {
+        "page": 2,
+        "text": "ACME Company I www.example.com",
+        "confidence": 0.993
+      },
+      {
+        "page": 2,
+        "text": "Now create your own Jotform",
+        "confidence": 0.985
+      },
+      {
+        "page": 2,
+        "text": "Jotform",
+        "confidence": 0.962
+      },
+      {
+        "page": 2,
+        "text": "Create your own PDF Document",
+        "confidence": 1.0
+      },
+      {
+        "page": 2,
+        "text": "PDF document - It's Free",
+        "confidence": 0.978
+      }
+    ]
+  },
+  "tables": [
+    {
+      "schema": "utility_bill",
+      "columns": [
+        "Date",
+        "Usage (kWh)",
+        "Cost (per kWh)",
+        "Amount ($)"
+      ],
+      "rows": [
+        {
+          "Date": "1/2/2025",
+          "Usage (kWh)": "8888",
+          "Cost (per kWh)": "6666",
+          "Amount ($)": "88871112",
+          "_amount_decimal": "88871112",
+          "_ocr_cost_per_kwh": "6666",
+          "_cost_per_kwh_inferred": "9999"
+        }
+      ]
+    }
+  ],
+  "normalized": {
+    "seller": {
+      "name": "ACME Company",
+      "address": "123 Any Road, Suite 456, Metropolis, NY 10001",
+      "phone": "(123) 123-4567",
+      "email": "billing@example.com",
+      "website": "www.example.com",
+      "tax_id": null,
+      "email_normalized": false
+    },
+    "buyer": {
+      "name": "Raj Jaiswal",
+      "address": {
+        "street": "Mask Road",
+        "city": "Fayette County",
+        "state": "Goa",
+        "postal_code": "30205",
+        "full": "Mask Road, Fayette County, Goa, 30205"
+      },
+      "email": null,
+      "phone": null
+    },
+    "document_title": "UTILITY BILL",
+    "document_id": null,
+    "order_number": null,
+    "account_no": "8961355121",
+    "currency": "USD",
+    "payment_terms_days": null,
+    "label_map": null,
+    "issue_date": "January 1, 2026",
+    "due_date": "February 7, 2026",
+    "line_items": [
+      {
+        "Date": "1/2/2025",
+        "Usage (kWh)": "8888",
+        "Cost (per kWh)": "9999",
+        "Amount ($)": "88871112",
+        "_amount_decimal": "88871112",
+        "_ocr_cost_per_kwh": "6666",
+        "_cost_per_kwh_inferred": "9999",
+        "_cost_confidence": "inferred",
+        "_source_priority": [
+          "amount",
+          "usage",
+          "rate"
+        ]
+      }
+    ],
+    "line_item_source_priority": [
+      "amount",
+      "usage",
+      "rate"
+    ],
+    "totals": {
+      "subtotal": "3000.00",
+      "shipping": null,
+      "tax": "300.00",
+      "total": "3301",
+      "previous_charges": "1.00",
+      "current_charges": "3000.00",
+      "subtotal_decimal": 3000.0,
+      "shipping_decimal": null,
+      "tax_decimal": 300.0,
+      "total_decimal": 3301.0
+    },
+    "taxes": {
+      "tax": "300.00"
+    },
+    "payments": {
+      "status": null
+    },
+    "period": {
+      "period_from": "February 1, 2026",
+      "period_until": "February 2, 2026"
+    },
+    "notes": [
+      "For any questions, please contact our billing department at billing@example.com or (123) 123-4567."
+    ],
+    "reminders": [
+      "Present your Statement of Account when paying your utility bill..",
+      "Without this document, you will be required to provide the account number, account name, and amount to be paid..",
+      "Please check your online accounts after payment in order to make. sure that the payment is pushed through..",
+      "If you have any questions, please contact us at (123) 123-4567 or email us at info@noemail.com."
+    ]
+  },
+  "variant_data": {
+    "variant": "utility",
+    "utility": {
+      "meter": {
+        "period_from": "February 1, 2026",
+        "period_until": "February 2, 2026"
+      }
+    }
+  },
+  "unknown_fields": {},
+  "validation": {
+    "checks": [
+      {
+        "name": "line_item_check",
+        "passed": true,
+        "details": {
+          "status": "PASS_WITH_INFERENCE",
+          "expected": "59247408",
+          "actual": "88871112",
+          "delta": "29623704",
+          "ocr_cost": "6666",
+          "inferred_cost": "9999",
+          "reason": "cost_reconciled_from_amount"
+        }
+      },
+      {
+        "name": "total_math_check",
+        "passed": true
+      },
+      {
+        "name": "date_range_check",
+        "passed": true
+      }
+    ],
+    "mismatches": [],
+    "inferred_fields": [
+      {
+        "field": "line_items.cost_per_kwh",
+        "reason": "cost_reconciled_from_amount",
+        "ocr_value": "6666",
+        "inferred_value": "9999",
+        "source_priority": [
+          "amount",
+          "usage",
+          "rate"
+        ]
+      }
+    ],
+    "raw": {
+      "line_items": [
+        {
+          "status": "PASS_WITH_INFERENCE",
+          "expected": "59247408",
+          "actual": "88871112",
+          "delta": "29623704",
+          "ocr_cost": "6666",
+          "inferred_cost": "9999",
+          "reason": "cost_reconciled_from_amount"
+        }
+      ],
+      "fields": {
+        "account_no": "8961355121",
+        "statement_date": "January 1, 2026",
+        "account_name": "Raj Jaiswal",
+        "period_from": "February 1, 2026",
+        "period_until": "February 2, 2026",
+        "address": "Mask Road",
+        "due_date": "February 7, 2026"
+      },
+      "vendor": {
+        "name": "ACME Company",
+        "address": "123 Any Road, Suite 456, Metropolis, NY 10001",
+        "phone": "(123) 123-4567",
+        "email": "billing@example.com",
+        "website": "www.example.com"
+      },
+      "customer_address_full": {
+        "street": "Mask Road",
+        "city": "Fayette County",
+        "state": "Goa",
+        "postal_code": "30205",
+        "full": "Mask Road, Fayette County, Goa, 30205"
+      },
+      "sections": {
+        "meter_information": true,
+        "bill_summary": true,
+        "reminders": true
+      },
+      "reminders": [
+        "Present your Statement of Account when paying your utility bill..",
+        "Without this document, you will be required to provide the account number, account name, and amount to be paid..",
+        "Please check your online accounts after payment in order to make. sure that the payment is pushed through..",
+        "If you have any questions, please contact us at (123) 123-4567 or email us at info@noemail.com."
+      ],
+      "notes": [
+        "For any questions, please contact our billing department at billing@example.com or (123) 123-4567."
+      ],
+      "summary": {
+        "previous_charges": "1.00",
+        "current_charges": "3000.00",
+        "tax": "300.00",
+        "total": "3301"
+      },
+      "field_confidence": {
+        "fields": {
+          "account_no": 1.0,
+          "statement_date": 0.992,
+          "account_name": 1.0,
+          "period_from": 0.998,
+          "period_until": 0.999,
+          "address": 1.0,
+          "due_date": 0.988
+        },
+        "vendor": {
+          "name": 0.998,
+          "address": 1.0,
+          "phone": 1.0,
+          "email": 1.0,
+          "website": 1.0
+        },
+        "customer_address_full": {
+          "street": 1.0,
+          "city": 0.999,
+          "state": 0.999,
+          "postal_code": 0.999,
+          "full": 1.0
+        },
+        "sections": {
+          "meter_information": null,
+          "bill_summary": null,
+          "reminders": null
+        },
+        "reminders": [
+          0.998,
+          0.982,
+          0.995,
+          0.999
+        ],
+        "notes": [
+          1.0
+        ],
+        "summary": {
+          "previous_charges": 1.0,
+          "current_charges": 0.999,
+          "tax": 0.999,
+          "total": 1.0
+        }
+      },
+      "summary_checks": {
+        "current_charges_match": "not_applicable",
+        "current_charges_match_reason": "line_items_not_authoritative_for_summary",
+        "total_match": true
+      }
+    }
+  },
+  "confidence": {
+    "field_level": {
+      "fields": {
+        "account_no": 1.0,
+        "statement_date": 0.992,
+        "account_name": 1.0,
+        "period_from": 0.998,
+        "period_until": 0.999,
+        "address": 1.0,
+        "due_date": 0.988
+      },
+      "vendor": {
+        "name": 0.998,
+        "address": 1.0,
+        "phone": 1.0,
+        "email": 1.0,
+        "website": 1.0
+      },
+      "customer_address_full": {
+        "street": 1.0,
+        "city": 0.999,
+        "state": 0.999,
+        "postal_code": 0.999,
+        "full": 1.0
+      },
+      "sections": {
+        "meter_information": null,
+        "bill_summary": null,
+        "reminders": null
+      },
+      "reminders": [
+        0.998,
+        0.982,
+        0.995,
+        0.999
+      ],
+      "notes": [
+        1.0
+      ],
+      "summary": {
+        "previous_charges": 1.0,
+        "current_charges": 0.999,
+        "tax": 0.999,
+        "total": 1.0
+      }
+    },
+    "section_level": {
+      "fields": 0.997,
+      "vendor": 1.0,
+      "summary": 1.0,
+      "reminders": 0.994,
+      "notes": 1.0
+    },
+    "overall_document": 0.991
+  },
+  "risk": {
+    "confidence_score": 1.0,
+    "risk_score": 0.0,
+    "risk_flags": [],
+    "explanations": {}
+  },
+  "meta": {
+    "engine_version": "2.0.0",
+    "schema_version": "1.1.0",
+    "ocr_engine": "PaddleOCR",
+    "preprocess": {
+      "deskew": {
+        "enabled": true,
+        "pages": [
+          {
+            "page": 1,
+            "deskew": {
+              "applied": false,
+              "detected_angle_deg": 0.0,
+              "applied_angle_deg": 0.0,
+              "method": "min_area_rect",
+              "min_abs_angle_deg": 0.7,
+              "max_abs_angle_deg": 15.0,
+              "enabled": true
+            }
+          },
+          {
+            "page": 2,
+            "deskew": {
+              "applied": false,
+              "detected_angle_deg": 0.0,
+              "applied_angle_deg": 0.0,
+              "method": "min_area_rect",
+              "min_abs_angle_deg": 0.7,
+              "max_abs_angle_deg": 15.0,
+              "enabled": true
+            }
+          }
+        ]
+      },
+      "version": "1.0.0"
+    },
+    "processing_time_ms": 9438,
+    "legacy_universal": {
+      "schema_version": "1.1.0",
+      "variant": "utility",
+      "invoice_id": null,
+      "order_number": null,
+      "document_title": "UTILITY BILL",
+      "currency": "USD",
+      "label_map": null,
+      "issue_date": "January 1, 2026",
+      "due_date": "February 7, 2026",
+      "payment_terms_days": null,
+      "seller": {
+        "name": "ACME Company",
+        "address": "123 Any Road, Suite 456, Metropolis, NY 10001",
+        "phone": "(123) 123-4567",
+        "email": "billing@example.com",
+        "website": "www.example.com",
+        "tax_id": null,
+        "email_normalized": false
+      },
+      "buyer": {
+        "name": "Raj Jaiswal",
+        "address": {
+          "street": "Mask Road",
+          "city": "Fayette County",
+          "state": "Goa",
+          "postal_code": "30205",
+          "full": "Mask Road, Fayette County, Goa, 30205"
+        },
+        "email": null,
+        "phone": null
+      },
+      "line_items": [
+        {
+          "Date": "1/2/2025",
+          "Usage (kWh)": "8888",
+          "Cost (per kWh)": "9999",
+          "Amount ($)": "88871112",
+          "_amount_decimal": "88871112",
+          "_ocr_cost_per_kwh": "6666",
+          "_cost_per_kwh_inferred": "9999",
+          "_cost_confidence": "inferred",
+          "_source_priority": [
+            "amount",
+            "usage",
+            "rate"
+          ]
+        }
+      ],
+      "totals": {
+        "subtotal": "3000.00",
+        "shipping": null,
+        "tax": "300.00",
+        "total": "3301",
+        "previous_charges": "1.00",
+        "current_charges": "3000.00",
+        "subtotal_decimal": 3000.0,
+        "shipping_decimal": null,
+        "tax_decimal": 300.0,
+        "total_decimal": 3301.0
+      },
+      "payments": {
+        "status": null
+      },
+      "payment_status": null,
+      "metadata": {
+        "source_schema": "utility_bill",
+        "section_flags": {
+          "meter_information": true,
+          "bill_summary": true,
+          "reminders": true
+        },
+        "reminders": [
+          "Present your Statement of Account when paying your utility bill..",
+          "Without this document, you will be required to provide the account number, account name, and amount to be paid..",
+          "Please check your online accounts after payment in order to make. sure that the payment is pushed through..",
+          "If you have any questions, please contact us at (123) 123-4567 or email us at info@noemail.com."
+        ],
+        "notes": [
+          "For any questions, please contact our billing department at billing@example.com or (123) 123-4567."
+        ]
+      },
+      "confidence": {
+        "invoice_id": 1.0,
+        "issue_date": 0.992,
+        "due_date": 0.988,
+        "seller": {
+          "name": 0.998,
+          "address": 1.0,
+          "phone": 1.0,
+          "email": 1.0,
+          "website": 1.0
+        },
+        "buyer": {
+          "name": 1.0,
+          "address": {
+            "street": 1.0,
+            "city": 0.999,
+            "state": 0.999,
+            "postal_code": 0.999,
+            "full": 1.0
+          }
+        },
+        "totals": {
+          "previous_charges": 1.0,
+          "current_charges": 0.999,
+          "tax": 0.999,
+          "total": 1.0
+        }
+      },
+      "account_no": "8961355121",
+      "line_item_source_priority": [
+        "amount",
+        "usage",
+        "rate"
+      ],
+      "meter": {
+        "period_from": "February 1, 2026",
+        "period_until": "February 2, 2026"
+      }
+    }
+  }
+}
