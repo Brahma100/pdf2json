@@ -8,7 +8,14 @@ _ocr = None
 def get_ocr():
     global _ocr
     if _ocr is None:
-        from paddleocr import PaddleOCR
+        try:
+            from paddleocr import PaddleOCR
+        except Exception as exc:
+            raise RuntimeError(
+                "PaddleOCR runtime is not available. Install Paddle dependencies for your OS. "
+                "Windows: pip install paddlepaddle==2.6.2 paddleocr==2.7.0.3 ; "
+                "macOS (Apple Silicon/Intel): pip install 'paddlepaddle>=3,<4' paddleocr==2.7.0.3"
+            ) from exc
 
         _ocr = PaddleOCR(
             use_angle_cls=True,

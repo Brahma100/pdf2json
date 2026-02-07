@@ -1,7 +1,7 @@
 ﻿# invoice-ocr
 
 Document OCR to structured JSON with validation, inference, and risk scoring.
-Optimized for Windows + Python 3.10.
+Optimized for Windows + Python 3.10, with macOS (Intel + Apple Silicon) support.
 
 ## Clean Project Structure
 
@@ -73,6 +73,22 @@ py -3.10 -m venv .venv
 python -m pip install --upgrade pip setuptools wheel
 pip install -e .
 ```
+
+## macOS setup (Intel + Apple Silicon)
+
+```bash
+brew install poppler
+python3.10 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip setuptools wheel
+pip install -e .
+invoice-ocr sample_invoice.pdf -o out.json
+```
+
+Notes:
+- Current dependency path supports macOS Intel and Apple Silicon with Python 3.10.
+- If your environment has older cached Paddle packages, reinstall with:
+  `pip install --upgrade --force-reinstall "paddlepaddle>=3,<4" paddleocr==2.7.0.3`
 
 ## Build Wheel/sdist
 
